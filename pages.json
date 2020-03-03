@@ -1,0 +1,74 @@
+{
+	"pages": [{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/ucenter/ucenter",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/initiateFlow/initiateFlow",
+			"style": {
+				"navigationBarTitleText": "操作",
+				"navigationBarBackgroundColor": "#303030",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/flows/PWFlows",
+			"style": {
+				"navigationBarTitleText": "发起流程",
+				"navigationBarBackgroundColor": "#303030",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/flows/POFlows",
+			"style": {
+				"navigationBarTitleText": "发起流程",
+				"navigationBarBackgroundColor": "#303030",
+				"navigationBarTextStyle": "white"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "登录",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "white"
+	},
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#e1b76c",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/images/home.png",
+			"selectedIconPath": "static/images/shouye-2.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/ucenter/ucenter",
+			"iconPath": "static/images/center.png",
+			"selectedIconPath": "static/images/wode.png",
+			"text": "我的"
+		}]
+	}
+}
